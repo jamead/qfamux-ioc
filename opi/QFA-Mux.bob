@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2026-01-05 11:59:00 by mead-->
+<display version="2.0.0">
+  <name>PDU1</name>
+  <width>1000</width>
+  <height>800</height>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_368</name>
+    <pv_name>$(P){$(N)}Pwr:P15V-I</pv_name>
+    <x>111</x>
+    <y>263</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_369</name>
+    <pv_name>$(P){$(N)}Pwr:N15V-I</pv_name>
+    <x>111</x>
+    <y>296</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_370</name>
+    <pv_name>$(P){$(N)}Pwr:P12V-I</pv_name>
+    <x>111</x>
+    <y>329</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_389</name>
+    <text>+15</text>
+    <x>15</x>
+    <y>263</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_390</name>
+    <text>-15</text>
+    <x>15</x>
+    <y>296</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_391</name>
+    <text>+12</text>
+    <x>15</x>
+    <y>329</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_375</name>
+    <pv_name>$(P){$(N)}Temp:Front-I</pv_name>
+    <x>310</x>
+    <y>263</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_376</name>
+    <pv_name>$(P){$(N)}Temp:Rear-I</pv_name>
+    <x>310</x>
+    <y>296</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_397</name>
+    <text>Front</text>
+    <x>214</x>
+    <y>263</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_398</name>
+    <text>Rear</text>
+    <x>214</x>
+    <y>296</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_400</name>
+    <text>Temperatures</text>
+    <x>214</x>
+    <y>231</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Text Input_2</name>
+    <macros>
+      <pv_name></pv_name>
+    </macros>
+    <text>${N}</text>
+    <x>701</x>
+    <y>36</y>
+    <width>77</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="OpTitleBG" red="175" green="238" blue="175">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Text Input_3</name>
+    <macros>
+      <pv_name></pv_name>
+    </macros>
+    <text>${P}</text>
+    <x>620</x>
+    <y>36</y>
+    <width>77</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="OpTitleBG" red="175" green="238" blue="175">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_45</name>
+    <text>Location</text>
+    <x>624</x>
+    <y>20</y>
+    <width>78</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_46</name>
+    <text>Number</text>
+    <x>699</x>
+    <y>20</y>
+    <width>78</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_47</name>
+    <text>QFA Multiplexer</text>
+    <x>90</x>
+    <y>20</y>
+    <width>321</width>
+    <height>36</height>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_403</name>
+    <text>Voltages</text>
+    <x>15</x>
+    <y>231</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_404</name>
+    <text>+5</text>
+    <x>15</x>
+    <y>362</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_374</name>
+    <pv_name>$(P){$(N)}Pwr:P5V-I</pv_name>
+    <x>111</x>
+    <y>362</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_377</name>
+    <pv_name>$(P){$(N)}Frame:Start-I</pv_name>
+    <x>509</x>
+    <y>263</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_380</name>
+    <pv_name>$(P){$(N)}Frame:End-I</pv_name>
+    <x>509</x>
+    <y>296</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_405</name>
+    <text>Header</text>
+    <x>413</x>
+    <y>263</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_406</name>
+    <text>End</text>
+    <x>413</x>
+    <y>296</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_407</name>
+    <text>Frame Delimiters</text>
+    <x>413</x>
+    <y>231</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_382</name>
+    <text>Channel 1</text>
+    <x>12</x>
+    <y>72</y>
+    <width>180</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_392</name>
+    <text>Current</text>
+    <x>12</x>
+    <y>110</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_371</name>
+    <pv_name>$(P){$(N)}Ch1:Current-I</pv_name>
+    <x>108</x>
+    <y>110</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_393</name>
+    <text>Command</text>
+    <x>12</x>
+    <y>143</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_372</name>
+    <pv_name>$(P){$(N)}Ch1:Cmd-I</pv_name>
+    <x>108</x>
+    <y>143</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_395</name>
+    <text>Cal</text>
+    <x>12</x>
+    <y>176</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_373</name>
+    <pv_name>$(P){$(N)}Ch1:Cal-I</pv_name>
+    <x>108</x>
+    <y>176</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_408</name>
+    <text>Channel 2</text>
+    <x>207</x>
+    <y>72</y>
+    <width>180</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_409</name>
+    <text>Current</text>
+    <x>207</x>
+    <y>110</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_381</name>
+    <pv_name>$(P){$(N)}Ch2:Current-I</pv_name>
+    <x>303</x>
+    <y>110</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_410</name>
+    <text>Command</text>
+    <x>207</x>
+    <y>143</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_382</name>
+    <pv_name>$(P){$(N)}Ch2:Cmd-I</pv_name>
+    <x>303</x>
+    <y>143</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_411</name>
+    <text>Cal</text>
+    <x>207</x>
+    <y>176</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_383</name>
+    <pv_name>$(P){$(N)}Ch2:Cal-I</pv_name>
+    <x>303</x>
+    <y>176</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_412</name>
+    <text>Channel 3</text>
+    <x>401</x>
+    <y>72</y>
+    <width>180</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_413</name>
+    <text>Current</text>
+    <x>401</x>
+    <y>110</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_384</name>
+    <pv_name>$(P){$(N)}Ch3:Current-I</pv_name>
+    <x>497</x>
+    <y>110</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_414</name>
+    <text>Command</text>
+    <x>401</x>
+    <y>143</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_385</name>
+    <pv_name>$(P){$(N)}Ch3:Cmd-I</pv_name>
+    <x>497</x>
+    <y>143</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_415</name>
+    <text>Cal</text>
+    <x>401</x>
+    <y>176</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_386</name>
+    <pv_name>$(P){$(N)}Ch3:Cal-I</pv_name>
+    <x>497</x>
+    <y>176</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_416</name>
+    <text>Channel 4</text>
+    <x>596</x>
+    <y>72</y>
+    <width>180</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_417</name>
+    <text>Current</text>
+    <x>596</x>
+    <y>110</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_387</name>
+    <pv_name>$(P){$(N)}Ch4:Current-I</pv_name>
+    <x>692</x>
+    <y>110</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_418</name>
+    <text>Command</text>
+    <x>596</x>
+    <y>143</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_388</name>
+    <pv_name>$(P){$(N)}Ch4:Cmd-I</pv_name>
+    <x>692</x>
+    <y>143</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_419</name>
+    <text>Cal</text>
+    <x>596</x>
+    <y>176</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_389</name>
+    <pv_name>$(P){$(N)}Ch4:Cal-I</pv_name>
+    <x>692</x>
+    <y>176</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+</display>

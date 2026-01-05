@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-12-08 11:51:09 by mead-->
+<display version="2.0.0">
+  <name>PDU1</name>
+  <width>1000</width>
+  <height>800</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_142</name>
+    <x>602</x>
+    <y>412</y>
+    <width>194</width>
+    <height>37</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_141</name>
+    <x>602</x>
+    <y>341</y>
+    <width>194</width>
+    <height>70</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_137</name>
+    <x>8</x>
+    <y>341</y>
+    <width>194</width>
+    <height>139</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_368</name>
+    <pv_name>$(P){$(N)}Current:PhaseA-I</pv_name>
+    <x>111</x>
+    <y>381</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_369</name>
+    <pv_name>$(P){$(N)}Current:PhaseB-I</pv_name>
+    <x>111</x>
+    <y>414</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_370</name>
+    <pv_name>$(P){$(N)}Current:PhaseC-I</pv_name>
+    <x>111</x>
+    <y>447</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_389</name>
+    <text>Phase A</text>
+    <x>15</x>
+    <y>381</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_390</name>
+    <text>Phase B</text>
+    <x>15</x>
+    <y>414</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_391</name>
+    <text>Phase C</text>
+    <x>15</x>
+    <y>447</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_392</name>
+    <text>Current Readings</text>
+    <x>15</x>
+    <y>349</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>5</x>
+    <y>61</y>
+    <width>795</width>
+    <height>275</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_138</name>
+      <width>795</width>
+      <height>275</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_121</name>
+      <x>399</x>
+      <y>6</y>
+      <width>194</width>
+      <height>263</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_122</name>
+      <x>498</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_123</name>
+      <x>404</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_387</name>
+      <text>Channel 3</text>
+      <x>406</x>
+      <y>14</y>
+      <width>180</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_73</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch3:State-SP</pv_name>
+          <value>CH3-ON</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR ON</text>
+      <x>406</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message></confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_74</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch3:State-SP</pv_name>
+          <value>CH3-OFF</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR OFF</text>
+      <x>500</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message>Reseting will delete the SA History Buffers.  Continue?</confirm_message>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_47</name>
+      <x>404</x>
+      <y>95</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_124</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_10</name>
+        <pv_name>$(P){$(N)}Ch3:Relay-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Output Relay OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Output Relay ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_48</name>
+      <x>404</x>
+      <y>129</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_125</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_11</name>
+        <pv_name>$(P){$(N)}Ch3:AuxContactor-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>AUX Contactor OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>AUX Contactor ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_49</name>
+      <x>404</x>
+      <y>163</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_126</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_12</name>
+        <pv_name>$(P){$(N)}Ch3:IOC:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by IOC</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by IOC</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_50</name>
+      <x>404</x>
+      <y>198</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_127</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_13</name>
+        <pv_name>$(P){$(N)}Ch3:Front:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Front Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Disabled by Front Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_51</name>
+      <x>404</x>
+      <y>233</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_128</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_14</name>
+        <pv_name>$(P){$(N)}Ch3:Rear:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Rear Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by Rear Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_129</name>
+      <x>596</x>
+      <y>6</y>
+      <width>194</width>
+      <height>263</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_130</name>
+      <x>695</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_131</name>
+      <x>601</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_388</name>
+      <text>Channel 4</text>
+      <x>603</x>
+      <y>14</y>
+      <width>180</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_75</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch4:State-SP</pv_name>
+          <value>CH4-ON</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR ON</text>
+      <x>603</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message></confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_76</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch4:State-SP</pv_name>
+          <value>CH4-OFF</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR OFF</text>
+      <x>697</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message>Reseting will delete the SA History Buffers.  Continue?</confirm_message>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_52</name>
+      <x>601</x>
+      <y>95</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_132</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_15</name>
+        <pv_name>$(P){$(N)}Ch4:Relay-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Output Relay OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Output Relay ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_53</name>
+      <x>601</x>
+      <y>129</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_133</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_16</name>
+        <pv_name>$(P){$(N)}Ch4:AuxContactor-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>AUX Contactor OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>AUX Contactor ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_54</name>
+      <x>601</x>
+      <y>163</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_134</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_17</name>
+        <pv_name>$(P){$(N)}Ch4:IOC:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by IOC</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by IOC</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_55</name>
+      <x>601</x>
+      <y>198</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_135</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_18</name>
+        <pv_name>$(P){$(N)}Ch4:Front:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Front Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Disabled by Front Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_56</name>
+      <x>601</x>
+      <y>233</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_136</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_19</name>
+        <pv_name>$(P){$(N)}Ch4:Rear:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Rear Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by Rear Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_112</name>
+      <x>5</x>
+      <y>6</y>
+      <width>194</width>
+      <height>263</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_98</name>
+      <x>104</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_113</name>
+      <x>202</x>
+      <y>6</y>
+      <width>194</width>
+      <height>263</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_115</name>
+      <x>301</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_45</name>
+      <x>10</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_382</name>
+      <text>Channel 1</text>
+      <x>12</x>
+      <y>14</y>
+      <width>180</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_51</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch1:State-SP</pv_name>
+          <value>CH1-ON</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR ON</text>
+      <x>12</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message></confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_62</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch1:State-SP</pv_name>
+          <value>CH1-OFF</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR OFF</text>
+      <x>106</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message>Reseting will delete the SA History Buffers.  Continue?</confirm_message>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group</name>
+      <x>10</x>
+      <y>95</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_107</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED</name>
+        <pv_name>$(P){$(N)}Ch1:Relay-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Output Relay OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Output Relay ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_38</name>
+      <x>10</x>
+      <y>129</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_108</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_1</name>
+        <pv_name>$(P){$(N)}Ch1:AuxContactor-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>AUX Contactor OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>AUX Contactor ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_39</name>
+      <x>10</x>
+      <y>163</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_109</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_2</name>
+        <pv_name>$(P){$(N)}Ch1:IOC:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>IOC Disabled</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>IOC Enabled</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_40</name>
+      <x>10</x>
+      <y>198</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_110</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_3</name>
+        <pv_name>$(P){$(N)}Ch1:Front:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Front Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Disabled by Front Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_41</name>
+      <x>10</x>
+      <y>233</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_111</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_4</name>
+        <pv_name>$(P){$(N)}Ch1:Rear:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Rear Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by Rear Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_114</name>
+      <x>207</x>
+      <y>50</y>
+      <width>90</width>
+      <height>40</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_386</name>
+      <text>Channel 2</text>
+      <x>209</x>
+      <y>14</y>
+      <width>180</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_width>2</border_width>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_71</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch2:State-SP</pv_name>
+          <value>CH2-ON</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR ON</text>
+      <x>209</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message></confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_72</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P){$(N)}Ch2:State-SP</pv_name>
+          <value>CH2-OFF</value>
+          <description>WritePV</description>
+        </action>
+      </actions>
+      <text>PWR OFF</text>
+      <x>303</x>
+      <y>52</y>
+      <width>86</width>
+      <height>35</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <confirm_message>Reseting will delete the SA History Buffers.  Continue?</confirm_message>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_42</name>
+      <x>207</x>
+      <y>95</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_116</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_5</name>
+        <pv_name>$(P){$(N)}Ch2:Relay-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Output Relay OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Output Relay ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_43</name>
+      <x>207</x>
+      <y>129</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_117</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_6</name>
+        <pv_name>$(P){$(N)}Ch2:AuxContactor-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>AUX Contactor OFF</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>AUX Contactor ON</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_44</name>
+      <x>207</x>
+      <y>163</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_118</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_7</name>
+        <pv_name>$(P){$(N)}Ch2:IOC:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by IOC</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by IOC</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_45</name>
+      <x>207</x>
+      <y>198</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_119</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_8</name>
+        <pv_name>$(P){$(N)}Ch2:Front:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Front Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Disabled by Front Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_46</name>
+      <x>207</x>
+      <y>233</y>
+      <width>184</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_120</name>
+        <width>184</width>
+        <height>30</height>
+        <line_width>2</line_width>
+        <line_color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Grid" red="128" green="128" blue="128">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="led" version="2.0.0">
+        <name>LED_9</name>
+        <pv_name>$(P){$(N)}Ch2:Rear:Enable-I</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>180</width>
+        <height>26</height>
+        <off_label>Disabled by Rear Panel</off_label>
+        <off_color>
+          <color red="255" green="102" blue="102">
+          </color>
+        </off_color>
+        <on_label>Enabled by Rear Panel</on_label>
+        <square>true</square>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_139</name>
+    <x>206</x>
+    <y>341</y>
+    <width>194</width>
+    <height>139</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_372</name>
+    <pv_name>$(P){$(N)}Serial:Number-I</pv_name>
+    <x>309</x>
+    <y>381</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>0</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_373</name>
+    <pv_name>$(P){$(N)}Model:Number-I</pv_name>
+    <x>309</x>
+    <y>414</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>0</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_374</name>
+    <pv_name>$(P){$(N)}Firmware:Version-I</pv_name>
+    <x>309</x>
+    <y>447</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <precision>0</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_393</name>
+    <text>Serial #</text>
+    <x>213</x>
+    <y>381</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_394</name>
+    <text>Model #</text>
+    <x>213</x>
+    <y>414</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_395</name>
+    <text>Firmware #</text>
+    <x>213</x>
+    <y>447</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_396</name>
+    <text>PDU Parameters</text>
+    <x>213</x>
+    <y>349</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_140</name>
+    <x>404</x>
+    <y>341</y>
+    <width>194</width>
+    <height>106</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_375</name>
+    <pv_name>$(P){$(N)}Temp:Front-I</pv_name>
+    <x>507</x>
+    <y>381</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_376</name>
+    <pv_name>$(P){$(N)}Temp:Rear-I</pv_name>
+    <x>507</x>
+    <y>414</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_397</name>
+    <text>Front</text>
+    <x>411</x>
+    <y>381</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_398</name>
+    <text>Rear</text>
+    <x>411</x>
+    <y>414</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_400</name>
+    <text>Temperatures</text>
+    <x>411</x>
+    <y>349</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_105</name>
+    <x>606</x>
+    <y>345</y>
+    <width>184</width>
+    <height>30</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_69</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(P){$(N)}All:On-SP</pv_name>
+        <value>ALL-ON</value>
+        <description>WritePV</description>
+      </action>
+    </actions>
+    <text>ALL Channels ON</text>
+    <x>608</x>
+    <y>347</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Write_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <confirm_message></confirm_message>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_106</name>
+    <x>606</x>
+    <y>377</y>
+    <width>184</width>
+    <height>30</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_70</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(P){$(N)}All:Off-SP</pv_name>
+        <value>ALL-OFF</value>
+        <description>WritePV</description>
+      </action>
+    </actions>
+    <text>ALL Channels OFF</text>
+    <x>608</x>
+    <y>379</y>
+    <width>180</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Write_Background" red="128" green="255" blue="255">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <confirm_message></confirm_message>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_401</name>
+    <text>Frame Top</text>
+    <x>411</x>
+    <y>452</y>
+    <width>90</width>
+    <height>25</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_378</name>
+    <pv_name>$(P){$(N)}Frame:Start-I</pv_name>
+    <x>507</x>
+    <y>452</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>0</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_379</name>
+    <pv_name>$(P){$(N)}Frame:End-I</pv_name>
+    <x>704</x>
+    <y>453</y>
+    <width>84</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>0</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_20</name>
+    <pv_name>$(P){$(N)}Watchdog:Flag-I</pv_name>
+    <x>606</x>
+    <y>416</y>
+    <width>185</width>
+    <height>29</height>
+    <off_label>Watchdog = 0</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_label>Watchdog = 1</on_label>
+    <on_color>
+      <color red="255" green="102" blue="102">
+      </color>
+    </on_color>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_402</name>
+    <text>Frame Bot</text>
+    <x>608</x>
+    <y>453</y>
+    <width>90</width>
+    <height>25</height>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_width>2</border_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Text Input_2</name>
+    <macros>
+      <pv_name></pv_name>
+    </macros>
+    <text>${N}</text>
+    <x>701</x>
+    <y>36</y>
+    <width>77</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="OpTitleBG" red="175" green="238" blue="175">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Text Input_3</name>
+    <macros>
+      <pv_name></pv_name>
+    </macros>
+    <text>${P}</text>
+    <x>620</x>
+    <y>36</y>
+    <width>77</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="OpTitleBG" red="175" green="238" blue="175">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_45</name>
+    <text>Location</text>
+    <x>624</x>
+    <y>20</y>
+    <width>78</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_46</name>
+    <text>Number</text>
+    <x>699</x>
+    <y>20</y>
+    <width>78</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_47</name>
+    <text>Power Distribution Unit (PDU)</text>
+    <x>90</x>
+    <y>20</y>
+    <width>321</width>
+    <height>36</height>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+  </widget>
+</display>
