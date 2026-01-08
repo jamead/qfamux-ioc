@@ -29,8 +29,20 @@ record(stringout, "$(P){$(NO)}:speak") {
   field(DTYP, "PSC Block")
   field(OUT , "@pscudp$(NO) 100")   
   field(FLNK, "$(P){$(NO)}:send")
+  #field(SCAN, "1 second")
+}
+
+# writes the UDP packet to the PDU to get status (1Hz)
+record(longout, "$(P){$(NO)}:kick") {
+  field(VAL, "21776")        
+  field(DTYP, "PSC Single I32")
+  field(OUT , "@pscudp$(NO) 100 21776")   
+  field(FLNK, "$(P){$(NO)}:send")
   field(SCAN, "1 second")
 }
+
+
+
 
 
 # writes the UDP packet to the PDU
@@ -201,6 +213,7 @@ record(ai,"$(P){$(NO)}Frame:End-I"){
 }
 
 
+
 #scale the Currents
 record(calc,"$(P){$(NO)}Ch1:Current") {
     field(INPA, "$(P){$(NO)}Ch1:Current-I NPP NMS")
@@ -209,6 +222,42 @@ record(calc,"$(P){$(NO)}Ch1:Current") {
     field(EGU,  "A")    
     field(SCAN, "Passive")
 }
+
+
+
+record(mbbo, "$(P){$(NO)}Relay:Number") {
+  field(DESC, "Relay select")
+  field(DTYP, "Soft Channel")
+
+  field(ZRST, "All Off")
+  field(ONST, "Relay 1")
+  field(TWST, "Relay 2")
+  field(THST, "Relay 3")
+  field(FRST, "Relay 4")
+  field(FVST, "Relay 5")
+  field(SXST, "Relay 6")
+
+  field(ZRVL, "5510")  # 0x5510
+  field(ONVL, 21777)  # 0x5511
+  field(TWVL, "21778")  # 0x5512
+  field(THVL, "21779")  # 0x5513
+  field(FRVL, "21780")  # 0x5514
+  field(FVVL, "21781")  # 0x5515
+  field(SXVL, "21782")  # 0x5516
+  field(FLNK, "$(P){$(NO)}Relay:KickDec.PROC")
+  #field(FLNK, "$(P){$(NO)}:kick.PROC")
+}
+
+
+record(calcout, "$(P){$(NO)}Relay:KickDec") {
+  field(DESC, "Copy Relay:Number.RVAL to :kick and send")
+  field(INPA, "$(P){$(NO)}Relay:Number.RVAL NPP NMS")
+  field(CALC, "A")
+  field(OCAL, "A")
+  field(OOPT, "Every Time")
+  field(OUT,  "$(P){$(NO)}:kick.VAL PP")
+}
+
 
 
 
