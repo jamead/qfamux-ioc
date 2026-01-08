@@ -32,14 +32,7 @@ record(stringout, "$(P){$(NO)}:speak") {
   #field(SCAN, "1 second")
 }
 
-# writes the UDP packet to the PDU to get status (1Hz)
-record(longout, "$(P){$(NO)}:kick") {
-  field(VAL, "21776")        
-  field(DTYP, "PSC Single I32")
-  field(OUT , "@pscudp$(NO) 100 21776")   
-  field(FLNK, "$(P){$(NO)}:send")
-  field(SCAN, "1 second")
-}
+
 
 
 
@@ -223,40 +216,192 @@ record(calc,"$(P){$(NO)}Ch1:Current") {
     field(SCAN, "Passive")
 }
 
+record(calc,"$(P){$(NO)}Ch2:Current") {
+    field(INPA, "$(P){$(NO)}Ch2:Current-I NPP NMS")
+    field(CALC, "(A-20000)*0.000625")
+    field(PREC, "6")
+    field(EGU,  "A")    
+    field(SCAN, "Passive")
+}
 
+record(calc,"$(P){$(NO)}Ch3:Current") {
+    field(INPA, "$(P){$(NO)}Ch3:Current-I NPP NMS")
+    field(CALC, "(A-20000)*0.000625")
+    field(PREC, "6")
+    field(EGU,  "A")    
+    field(SCAN, "Passive")
+}
 
-record(mbbo, "$(P){$(NO)}Relay:Number") {
-  field(DESC, "Relay select")
-  field(DTYP, "Soft Channel")
-
-  field(ZRST, "All Off")
-  field(ONST, "Relay 1")
-  field(TWST, "Relay 2")
-  field(THST, "Relay 3")
-  field(FRST, "Relay 4")
-  field(FVST, "Relay 5")
-  field(SXST, "Relay 6")
-
-  field(ZRVL, "5510")  # 0x5510
-  field(ONVL, 21777)  # 0x5511
-  field(TWVL, "21778")  # 0x5512
-  field(THVL, "21779")  # 0x5513
-  field(FRVL, "21780")  # 0x5514
-  field(FVVL, "21781")  # 0x5515
-  field(SXVL, "21782")  # 0x5516
-  field(FLNK, "$(P){$(NO)}Relay:KickDec.PROC")
-  #field(FLNK, "$(P){$(NO)}:kick.PROC")
+record(calc,"$(P){$(NO)}Ch4:Current") {
+    field(INPA, "$(P){$(NO)}Ch4:Current-I NPP NMS")
+    field(CALC, "(A-20000)*0.000625")
+    field(PREC, "6")
+    field(EGU,  "A")    
+    field(SCAN, "Passive")
 }
 
 
-record(calcout, "$(P){$(NO)}Relay:KickDec") {
-  field(DESC, "Copy Relay:Number.RVAL to :kick and send")
-  field(INPA, "$(P){$(NO)}Relay:Number.RVAL NPP NMS")
+
+# Channel 1 Relay Command
+record(mbbo, "$(P){$(NO)}Ch1:Relay-SP") {
+  field(DESC, "Relay select")
+  field(DTYP, "Soft Channel")
+  field(ZRST, "All Off")
+  field(ONST, "Output 1")
+  field(TWST, "Output 2")
+  field(THST, "Output 3")
+  field(FRST, "Output 4")
+  field(FVST, "Output 5")
+  field(SXST, "Output 6")
+  field(ZRVL, "0")  
+  field(ONVL, "1")  
+  field(TWVL, "2")  
+  field(THVL, "3") 
+  field(FRVL, "4") 
+  field(FVVL, "5")  
+  field(SXVL, "6")  
+  field(FLNK, "$(P){$(NO)}Ch1:RelayRVal")
+}
+
+record(calcout, "$(P){$(NO)}Ch1:RelayRVal") {
+  field(DESC, "Copy Relay:Number.RVAL")
+  field(INPA, "$(P){$(NO)}Ch1:Relay-SP.RVAL NPP NMS")
   field(CALC, "A")
   field(OCAL, "A")
   field(OOPT, "Every Time")
-  field(OUT,  "$(P){$(NO)}:kick.VAL PP")
+  field(OUT,  "$(P){$(NO)}:Ch1-RelayWriteUDP PP")
 }
+
+record(longout, "$(P){$(NO)}:Ch1-RelayWriteUDP") {       
+  field(DTYP, "PSC Single I32")
+  field(OUT , "@pscudp$(NO) 85 1")   
+  field(FLNK, "$(P){$(NO)}:send")
+  #field(SCAN, "1 second")
+}
+
+
+# Channel 2 Relay Command
+record(mbbo, "$(P){$(NO)}Ch2:Relay-SP") {
+  field(DESC, "Relay select")
+  field(DTYP, "Soft Channel")
+  field(ZRST, "All Off")
+  field(ONST, "Output 1")
+  field(TWST, "Output 2")
+  field(THST, "Output 3")
+  field(FRST, "Output 4")
+  field(FVST, "Output 5")
+  field(SXST, "Output 6")
+  field(ZRVL, "0")  
+  field(ONVL, "1")  
+  field(TWVL, "2")  
+  field(THVL, "3") 
+  field(FRVL, "4") 
+  field(FVVL, "5")  
+  field(SXVL, "6")  
+  field(FLNK, "$(P){$(NO)}Ch2:RelayRVal")
+}
+
+# Forwards the RVAL to be written to UDP
+record(calcout, "$(P){$(NO)}Ch2:RelayRVal") {
+  field(DESC, "Copy Relay:Number.RVAL")
+  field(INPA, "$(P){$(NO)}Ch2:Relay-SP.RVAL NPP NMS")
+  field(CALC, "A")
+  field(OCAL, "A")
+  field(OOPT, "Every Time")
+  field(OUT,  "$(P){$(NO)}:Ch2-RelayWriteUDP PP")
+}
+
+
+# writes the UDP packet to the PDU to get status (1Hz)
+record(longout, "$(P){$(NO)}:Ch2-RelayWriteUDP") {       
+  field(DTYP, "PSC Single I32")
+  field(OUT , "@pscudp$(NO) 85 2")   
+  field(FLNK, "$(P){$(NO)}:send")
+  #field(SCAN, "1 second")
+}
+
+
+# Channel 3 Relay Command
+record(mbbo, "$(P){$(NO)}Ch3:Relay-SP") {
+  field(DESC, "Relay select")
+  field(DTYP, "Soft Channel")
+  field(ZRST, "All Off")
+  field(ONST, "Output 1")
+  field(TWST, "Output 2")
+  field(THST, "Output 3")
+  field(FRST, "Output 4")
+  field(FVST, "Output 5")
+  field(SXST, "Output 6")
+  field(ZRVL, "0")  
+  field(ONVL, "1")  
+  field(TWVL, "2")  
+  field(THVL, "3") 
+  field(FRVL, "4") 
+  field(FVVL, "5")  
+  field(SXVL, "6")  
+  field(FLNK, "$(P){$(NO)}Ch3:RelayRVal")
+}
+
+# Forwards the RVAL to be written to UDP
+record(calcout, "$(P){$(NO)}Ch3:RelayRVal") {
+  field(DESC, "Copy Relay:Number.RVAL")
+  field(INPA, "$(P){$(NO)}Ch3:Relay-SP.RVAL NPP NMS")
+  field(CALC, "A")
+  field(OCAL, "A")
+  field(OOPT, "Every Time")
+  field(OUT,  "$(P){$(NO)}:Ch3-RelayWriteUDP PP")
+}
+
+
+# writes the UDP packet to the PDU to get status (1Hz)
+record(longout, "$(P){$(NO)}:Ch3-RelayWriteUDP") {       
+  field(DTYP, "PSC Single I32")
+  field(OUT , "@pscudp$(NO) 85 3")   
+  field(FLNK, "$(P){$(NO)}:send")
+  #field(SCAN, "1 second")
+}
+
+
+# Channel 4 Relay Command
+record(mbbo, "$(P){$(NO)}Ch4:Relay-SP") {
+  field(DESC, "Relay select")
+  field(DTYP, "Soft Channel")
+  field(ZRST, "All Off")
+  field(ONST, "Output 1")
+  field(TWST, "Output 2")
+  field(THST, "Output 3")
+  field(FRST, "Output 4")
+  field(FVST, "Output 5")
+  field(SXST, "Output 6")
+  field(ZRVL, "0")  
+  field(ONVL, "1")  
+  field(TWVL, "2")  
+  field(THVL, "3") 
+  field(FRVL, "4") 
+  field(FVVL, "5")  
+  field(SXVL, "6")  
+  field(FLNK, "$(P){$(NO)}Ch4:RelayRVal")
+}
+
+# Forwards the RVAL to be written to UDP
+record(calcout, "$(P){$(NO)}Ch4:RelayRVal") {
+  field(DESC, "Copy Relay:Number.RVAL")
+  field(INPA, "$(P){$(NO)}Ch4:Relay-SP.RVAL NPP NMS")
+  field(CALC, "A")
+  field(OCAL, "A")
+  field(OOPT, "Every Time")
+  field(OUT,  "$(P){$(NO)}:Ch4-RelayWriteUDP PP")
+}
+
+
+# writes the UDP packet to the PDU to get status (1Hz)
+record(longout, "$(P){$(NO)}:Ch4-RelayWriteUDP") {       
+  field(DTYP, "PSC Single I32")
+  field(OUT , "@pscudp$(NO) 85 4")   
+  field(FLNK, "$(P){$(NO)}:send")
+  #field(SCAN, "1 second")
+}
+
 
 
 

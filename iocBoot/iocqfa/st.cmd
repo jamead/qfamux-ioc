@@ -1,4 +1,4 @@
-#!../../bin/linux-x86_64/pdu
+#!../../bin/linux-x86_64/qfa
 
 < envPaths
 
@@ -8,7 +8,7 @@ cd "${TOP}"
 
 ## Register all support components
 dbLoadDatabase "dbd/qfa.dbd"
-pdu_registerRecordDeviceDriver pdbbase
+qfa_registerRecordDeviceDriver pdbbase
 
 
 var("PSCDebug", "5")
