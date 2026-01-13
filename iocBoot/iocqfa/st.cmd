@@ -16,7 +16,7 @@ var("PSCDebug", "5")
 # Listen on 0.0.0.0:1234  (pass zero for random port)
 # for messages coming from "device" localhost:5000
 
-createPSCUDP("pscudp1", "10.0.142.195", 5000, 1234)
+createPSCUDP("pscudp1", "10.69.26.202", 5000, 1234)
 #createPSCUDP("pscudp2", "10.0.142.187", 5000, 1235)
 
 ## Load record instances
