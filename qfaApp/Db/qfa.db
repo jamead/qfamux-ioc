@@ -209,7 +209,7 @@ record(ai,"$(P){$(NO)}Frame:End-I"){
 
 #scale the Currents
 record(calc,"$(P){$(NO)}Ch1:Current") {
-    field(INPA, "$(P){$(NO)}Ch1:Current-I NPP NMS")
+    field(INPA, "$(P){$(NO)}Ch1:Current-I CP NPP")
     field(CALC, "(A-20000)*0.000625")
     field(PREC, "6")
     field(EGU,  "A")    
@@ -217,7 +217,7 @@ record(calc,"$(P){$(NO)}Ch1:Current") {
 }
 
 record(calc,"$(P){$(NO)}Ch2:Current") {
-    field(INPA, "$(P){$(NO)}Ch2:Current-I NPP NMS")
+    field(INPA, "$(P){$(NO)}Ch2:Current-I CP NPP")
     field(CALC, "(A-20000)*0.000625")
     field(PREC, "6")
     field(EGU,  "A")    
@@ -225,7 +225,7 @@ record(calc,"$(P){$(NO)}Ch2:Current") {
 }
 
 record(calc,"$(P){$(NO)}Ch3:Current") {
-    field(INPA, "$(P){$(NO)}Ch3:Current-I NPP NMS")
+    field(INPA, "$(P){$(NO)}Ch3:Current-I CP NPP")
     field(CALC, "(A-20000)*0.000625")
     field(PREC, "6")
     field(EGU,  "A")    
@@ -233,12 +233,26 @@ record(calc,"$(P){$(NO)}Ch3:Current") {
 }
 
 record(calc,"$(P){$(NO)}Ch4:Current") {
-    field(INPA, "$(P){$(NO)}Ch4:Current-I NPP NMS")
+    field(INPA, "$(P){$(NO)}Ch4:Current-I CP NPP")
     field(CALC, "(A-20000)*0.000625")
     field(PREC, "6")
     field(EGU,  "A")    
     field(SCAN, "Passive")
 }
+
+
+#scale the Voltages 
+record(calc,"$(P){$(NO)}Pwr:P15V") {
+    field(INPA, "$(P){$(NO)}Pwr:P15V-I CP NPP")
+    field(CALC, "(A/614)*15")
+    field(PREC, "6")
+    field(EGU,  "V")    
+    field(SCAN, "Passive")
+}
+
+
+
+
 
 
 

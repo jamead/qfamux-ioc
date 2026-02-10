@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2026-01-08 08:35:20 by mead-->
+<!--Saved on 2026-01-13 11:45:24 by mead-->
 <display version="2.0.0">
   <name>QFA Mux</name>
   <width>900</width>
@@ -618,6 +618,10 @@ $(pv_value)</tooltip>
     <items>
       <item>Item 1</item>
       <item>Item 2</item>
+      <item>Item 3</item>
+      <item>Item 4</item>
+      <item>Item 5</item>
+      <item>Item 6</item>
     </items>
   </widget>
   <widget type="label" version="2.0.0">
@@ -790,6 +794,10 @@ $(pv_value)</tooltip>
     <items>
       <item>Item 1</item>
       <item>Item 2</item>
+      <item>Item 3</item>
+      <item>Item 4</item>
+      <item>Item 5</item>
+      <item>Item 6</item>
     </items>
   </widget>
   <widget type="label" version="2.0.0">
@@ -946,7 +954,7 @@ $(pv_value)</tooltip>
   <widget type="choice" version="2.0.0">
     <name>Choice Button_7</name>
     <pv_name>$(P){$(N)}Ch4:Relay-SP</pv_name>
-    <x>625</x>
+    <x>624</x>
     <y>120</y>
     <width>170</width>
     <height>300</height>
@@ -962,6 +970,10 @@ $(pv_value)</tooltip>
     <items>
       <item>Item 1</item>
       <item>Item 2</item>
+      <item>Item 3</item>
+      <item>Item 4</item>
+      <item>Item 5</item>
+      <item>Item 6</item>
     </items>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1134,6 +1146,10 @@ $(pv_value)</tooltip>
     <items>
       <item>Item 1</item>
       <item>Item 2</item>
+      <item>Item 3</item>
+      <item>Item 4</item>
+      <item>Item 5</item>
+      <item>Item 6</item>
     </items>
   </widget>
   <widget type="label" version="2.0.0">
